@@ -58,6 +58,7 @@ def add_to_history(acc_no, type, amount):
         "amount": amount
     })
 
+
 # Print passbook
 def print_passbook(acc_no):
     print(f"Passbook for Account: {acc_no}")
@@ -115,3 +116,4 @@ def welcome():
         else:
             print(" Invalid choice.")
 
+welcome()
